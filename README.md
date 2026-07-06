@@ -6,7 +6,7 @@ A collection of Jupyter notebooks for learning Python, Data Science, NLP, and Co
 
 1. **Intro_to_NLP.ipynb** - Natural Language Processing basics: strings, NLTK, an EDA + sentiment analysis walkthrough, and using the Gemini API to build simple chatbots.
 2. **Learning_Python_In2Stem_Placement.ipynb** - A full Python fundamentals course: syntax, data structures, control flow, functions, OOP, and more, with interactive widgets and coding challenges throughout.
-3. **Intro_to_computer_vision.ipynb** - A full-length (~3 hour) introduction to Computer Vision: images as data, classical image processing, YOLO11 (classification, detection, pose, segmentation, tracking), Hugging Face model pipelines, fine-tuning, mini projects, and a generative vision bonus section.
+3. **Intro_to_computer_vision.ipynb** - A full-length introduction to Computer Vision: images as data, classical image processing, YOLO11 (classification, detection, pose, segmentation, tracking), Hugging Face model pipelines, fine-tuning, mini projects, and a generative vision bonus section.
 4. **Intro_to_Data_Science_with_Python.ipynb** - An introduction to the data science workflow using NumPy, Pandas, and Matplotlib for cleaning, exploring, and visualizing data.
 
 ## Getting Started
