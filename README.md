@@ -4,10 +4,10 @@ A collection of Jupyter notebooks for learning Computer Science, Python, Data Sc
 
 ## Notebooks
 
-1. **Intro_to_NLP.ipynb** - Natural Language Processing basics: strings, NLTK, an EDA + sentiment analysis walkthrough, and using the Gemini API to build simple chatbots.
+1. **Intro_to_NLP.ipynb** - Natural Language Processing from strings to LLMs: string handling, an EDA walkthrough on 20k real hotel reviews, preprocessing with NLTK (tokenization, stop words, POS-aware lemmatization), turning words into numbers with Bag of Words and TF-IDF, sentiment analysis with VADER, training a text classifier with scikit-learn, and using the Gemini API to build chatbots.
 2. **Learning_Python_In2Stem_Placement.ipynb** - A full Python fundamentals course: syntax, data structures, control flow, functions, OOP, and more, with interactive widgets and coding challenges throughout.
 3. **Intro_to_computer_vision.ipynb** - A full-length introduction to Computer Vision: images as data, classical image processing, YOLO11 (classification, detection, pose, segmentation, tracking), Hugging Face model pipelines, fine-tuning, mini projects, and a generative vision bonus section.
-4. **Intro_to_Data_Science_with_Python.ipynb** - An introduction to the data science workflow using NumPy, Pandas, and Matplotlib for cleaning, exploring, and visualizing data.
+4. **Intro_to_Data_Science_with_Python.ipynb** - The data science workflow end to end on 3,900 real customer purchases: NumPy arrays and vectorization, Pandas for loading, cleaning, filtering and grouping, and Matplotlib for visualizing. Then the part most tutorials skip - telling a real finding from a convincing-looking one, using shuffle tests, honest error bars, and a baseline the model has to beat.
 5. **Intro_to_Computer_Science_and_AI.ipynb** - The conceptual foundation the others build on, and a good place to start: binary and algorithms, Big-O, data structures, the branches of the field, then AI from Turing and the perceptron through both AI winters to machine learning, neural networks built from scratch, transformers, and generative models.
 
 ## Getting Started
@@ -16,7 +16,7 @@ Run these in **Google Colab** - just open a notebook and click Run. Colab alread
 
 A few things to set up first:
 * **Nothing at all** (`Intro_to_Computer_Science_and_AI.ipynb`): no dataset, no API key, no GPU. It runs top to bottom on a free CPU runtime, so it's the easiest one to start with.
-* **Datasets**: `Intro_to_NLP.ipynb` and `Intro_to_Data_Science_with_Python.ipynb` expect a CSV uploaded to `/content/` (e.g. `tripadvisor_hotel_reviews.csv`, `shopping_trends.csv`) - download from Kaggle and upload via Colab's file browser. `Intro_to_computer_vision.ipynb` downloads its own sample images, so no upload is needed unless you want to try the exercises on your own photo.
+* **Datasets**: nothing to upload. `Intro_to_Data_Science_with_Python.ipynb`, `Intro_to_NLP.ipynb`, and `Intro_to_computer_vision.ipynb` all download their own data, so they run top to bottom as-is - you only need your own file if you want to try the homework on a dataset you picked.
 * **Gemini API key** (`Intro_to_NLP.ipynb` only): get a free key from [ai.dev](https://ai.dev), then add it as `GOOGLE_API_KEY` in Colab's 🔑 Secrets tab.
 * **GPU runtime** (`Intro_to_computer_vision.ipynb` bonus section only): the optional Stable Diffusion section needs a GPU - **Runtime > Change runtime type > T4 GPU**.
 * **Webcam access** (`Intro_to_computer_vision.ipynb` mini-projects only): optional, needs browser camera permission, Colab-only.
